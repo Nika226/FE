@@ -19,9 +19,6 @@ h1 {
     text-align: center;
     color: rgb(171, 14, 137);
 }
-span {
-    border: 2px solid black;
-}
 
 .wrap {
   float: left; 
