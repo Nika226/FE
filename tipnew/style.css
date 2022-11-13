@@ -1,0 +1,91 @@
+dl {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  
+  body {
+    /* background: rgb(237, 231, 233);
+    font: 16px/1.4 'Trebuchet MS', Verdana, sans-serif;*/
+    background: #852d2d;
+    background: repeating-radial-gradient(circle farthest-corner at center center, #852d2d 0%, #ff00c6 20%);
+    background: -webkit-repeating-radial-gradient(circle farthest-corner at center center, #852d2d 0%, #ff00c6 20%);
+    background: -moz-repeating-radial-gradient(circle farthest-corner at center center, #852d2d 0%, #ff00c6 20%);
+    }
+  
+ .block_1  {
+    box-shadow: inset;
+        display: inline-block;
+        border-radius: 5px;
+        padding: 15px 35px;
+        font-size: 22px;
+        text-decoration: none;
+        margin: 20px;
+        color: white;
+        background: #8b9298;
+        box-shadow: 0 15px 0 #3b3737;
+        transition: .3s;
+    }
+
+    .block_2 {
+        box-shadow:inset;
+        background: white;
+        display: inline-block;
+        font-size: 22px;
+        width: 200px;
+        height: 100px;
+        margin: 50px;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0,0,0,0.22);
+        text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+    }
+
+    .block_3 {
+        margin: 50px;
+        height: 100px;
+        width: 200px;
+        display: inline-block;
+        font-size: 22px;
+        box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    }
+
+    .block_4 {
+        background: #fff6eb;
+        text-align: center;
+        display: inline-flex;
+        font-size: 22px;
+        box-shadow: 10px 5px 5px black;
+    }
+
+    .block_5 {
+        box-shadow: inherit;
+        display: inline-block;
+        box-shadow: 0 0 0 2em #F4AAB9,
+              0 0 0 4em #66CCFF;
+        margin: 6em;
+        padding:2em;
+    }
+    
+    .block_6 {
+        text-transform: uppercase;
+        padding: 20px;
+        display: inline-flex;
+        font-size: 22px;
+        box-shadow:
+        inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+    }
+    
+   .block_7 {      
+    text-align: center;
+    display: inline-flex;
+    font-size: 22px;
+    margin: 4em;
+    padding:1em;
+    box-shadow: -8px -24px 5px 41px rgba(0,133,54,0.63);
+    -webkit-box-shadow: -8px -24px 5px 41px rgba(0,133,54,0.63);
+    -moz-box-shadow: -8px -24px 5px 41px rgba(0,133,54,0.63);
+   }
