@@ -89,3 +89,7 @@ dl {
     -webkit-box-shadow: -8px -24px 5px 41px rgba(0,133,54,0.63);
     -moz-box-shadow: -8px -24px 5px 41px rgba(0,133,54,0.63);
    }
+
+   .losk {
+    box-shadow: 10px 5px 5px rgb(35, 2, 5);    
+   }
