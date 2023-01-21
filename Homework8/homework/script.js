@@ -91,3 +91,4 @@ const greetings = ['hello', 'hi', 'good morning', 'good night', 'good evening'];
 
 const string_lang = greetings.filter(el => el.length > 6);
 console.log(string_lang);
+
