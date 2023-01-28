@@ -44,8 +44,11 @@ console.log(adults_names);
 // 2. Сформировать массив из людей, которые живут в Германии
 
 const germans = users.filter(el => el.country === 'Germany');
+const germans1 = users.find(el => el.country === 'Germany');
 
- console.log(germans);
+// console.log(germans);
+// console.log(germans1);
+ 
 
 // 3. Сформировать массив людей, чей возраст находится в диапазоне от 30 до 70 включительно
 
