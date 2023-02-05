@@ -46,3 +46,20 @@ const workers = [
   },
 ];
 
+const users_cards = workers.map(({ first_name, last_name, age, rate, days }) => {
+    const cardElem = document.createElement('div');
+    const firstnameElem = document.createElement('p');
+    const lastnameElem = document.createElement('p');
+    const ageElem = document.createElement('p');
+    const salaryElem = document.createElement('p');
+  
+    firstnameElem.innerText = `Firstname: ${first_name}`;
+    lastnameElem.innerText = `Lastname: ${last_name}`;
+    ageElem.innerText = `Age: ${age}`;
+    salaryElem.innerText = `Salary: ${rate * days}`
+  
+    cardElem.append(firstnameElem, lastnameElem, ageElem, salaryElem);
+    return cardElem
+  });
+
+  console.log(workers);
