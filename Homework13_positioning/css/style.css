@@ -1,1 +1,39 @@
+.square {
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+  position: relative;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue div {
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+}
+
+.white {
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.pink {
+  background-color: pink;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 
