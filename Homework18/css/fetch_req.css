@@ -1,1 +1,12 @@
+.cards_container {
+  display: flex;
+  gap: 35px;
+  flex-wrap: wrap;
+}
 
+.user_card {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 15px;
+  width: 200px;
+}
