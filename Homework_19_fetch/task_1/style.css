@@ -1,1 +1,18 @@
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+
+  display: flex;
+  flex-direction: column; /* Определяет основную ось, по умолчанию row - горизонтальная */
+  justify-content: center; /* Выравнивает элементы вдоль основной оси */
+  align-items: center; /* Выравнивает элементы вдоль второстепенной оси */
+}
+
+.cards_container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap; /* Разрешает перенос элементов на новую строку, если для них нет места в одной строке */
+}
 
